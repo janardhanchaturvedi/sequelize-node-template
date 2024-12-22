@@ -17,3 +17,16 @@ Let's take a look inside the `src` folder
 - `services` -> contains the business logic and interacts with respositoriees for the data from the database
 
 - `utils` -> contains the helper methods , error , classes etc.
+
+### Setup the project
+
+- Download this template from github and open it in your favourite text editor.
+
+- In the root directory create a `.env` file and the following env variables
+  ```
+      PORT=<port number of you choice>
+  ```
+  ex :
+  ```
+    PORT=3000
+  ```
