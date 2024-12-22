@@ -23,15 +23,19 @@ Let's take a look inside the `src` folder
 - Download this template from github and open it in your favourite text editor.
 
 - In the root directory create a `.env` file and the following env variables
+
   ```
       PORT=<port number of you choice>
   ```
+
   ex :
+
   ```
     PORT=3000
   ```
 
 - Inside the `src/config` folder create a file name `config.json` and write the following code:
+
   ```
   {
   "development": {
@@ -59,5 +63,5 @@ Let's take a look inside the `src` folder
   ```
 
   - if you are setting up your development enviroment, then write the username of your db, password of your db and add in dialselect mention whatever db you are using ex : mariadb , mysql
-  
-  
+
+  - If you want to avoid this config file the just go to `src` and run the command `npx sequelize init` the config file will be created automatically
