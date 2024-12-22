@@ -11,3 +11,9 @@ Let's take a look inside the `src` folder
 - `middlewares` -> they are just going to intercept the incoming request where we can write our validators, authenticators , etc
 
 - `controllers` -> they are kind of the last middlewares as post them you can your bussiness layer to execute the bussiness logic. In controllers we just recieve the incoming requests and then pass it to the business layer, and once business layer returs and output , we structure the API response in the controllers and send the output
+
+- `repositories` -> this folder contains all the logic using which we interacts the DB by writing queries, all the raw queries or ORM queries will go here.
+
+- `services` -> contains the business logic and interacts with respositoriees for the data from the database
+
+- `utils` -> contains the helper methods , error , classes etc.
